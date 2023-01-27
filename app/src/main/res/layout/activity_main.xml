@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#d3d3d3"
+            android:text="하차벨 예약"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#d3d3d3"
+            android:text="하차벨"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이공이공"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#D3D3D3"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="699dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
